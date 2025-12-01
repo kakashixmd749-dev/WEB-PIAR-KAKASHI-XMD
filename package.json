@@ -1,15 +1,15 @@
 {
-  "name": "kakashi-web-pair",
+  "name": "Kakashi-web-pair",
   "version": "0.0.1",
   "description": "A multi-functional WhatsApp bot web paircode.",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --name kakashi --attach",
-    "stop": "pm2 stop kakashi",
-    "restart": "pm2 restart kakashi"
+    "start": "pm2 start index.js --name Kakashi --attach",
+    "stop": "pm2 stop Kakashi",
+    "restart": "pm2 restart Kakashi"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.18",
+    "baileys": "npm:@fuxxy-star/baileys@^5.5.0",
     "awesome-phonenumber": "^7.5.0",
     "body-parser": "^2.2.0",
     "express": "^5.1.0",
